@@ -24,7 +24,7 @@ const Footer = () => (
             <div className='relative ~mt-24/64'>
                 <Logo className='mx-auto'/>
 
-                <div className='~mt-4/8 flex items-center justify-around flex-wrap gap-6 text-center ~text-xs/lg'>
+                <div className='~mt-4/8 flex items-center justify-around flex-wrap ~gap-4/8 text-center ~text-xs/lg'>
                     <Link href='/'>Terms & Agreements</Link>
                     <span>@2023 Macro All Rights Reserved</span>
                     <Link href='/'>Privacy Policy</Link>

@@ -29,7 +29,7 @@ const Platform = ({ icon, label, name, href }: Platform) => (
         className='flex items-center justify-center gap-4 bg-background-2 text-foreground-2 rounded-xl px-8 py-3 shrink-0 w-full md:w-fit'
     >
         <img src={`/media/icons/platforms/${icon}`} className='w-6' />
-        <div className='flex flex-col font-medium'>
+        <div className='flex flex-col font-medium w-32 sm:w-auto'>
             <span className='text-xs uppercase'>{label}</span>
             <span className='~text-base/xl'>{name}</span>
         </div>

@@ -66,9 +66,9 @@ const Text = () => (
         </h1>
         <p className='~text-sm/base text-foreground-4 ~mt-3/6'>
             Why is accounting so hard? Because managing personal finances is not
-            just about accounting, but it's also about organizing your expenses
-            and income. This tool lets you to quickly set-up a personal budget
-            and track your daily expenses and income
+            just about accounting, but it&apos;s also about organizing your
+            expenses and income. This tool lets you to quickly set-up a personal
+            budget and track your daily expenses and income
         </p>
         <Button
             variant='primary'
